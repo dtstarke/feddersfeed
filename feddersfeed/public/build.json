@@ -1,0 +1,9 @@
+{   
+	"feddersfeed/css/fedders_web.css": [
+		"public/less/login.less"
+	],
+    
+	"feddersfeed/js/fedders_web.js": [
+		"public/js/login.js"
+	]
+}

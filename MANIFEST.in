@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include feddersfeed *.css
+recursive-include feddersfeed *.csv
+recursive-include feddersfeed *.html
+recursive-include feddersfeed *.ico
+recursive-include feddersfeed *.js
+recursive-include feddersfeed *.json
+recursive-include feddersfeed *.md
+recursive-include feddersfeed *.png
+recursive-include feddersfeed *.py
+recursive-include feddersfeed *.svg
+recursive-include feddersfeed *.txt
+recursive-exclude feddersfeed *.pyc
