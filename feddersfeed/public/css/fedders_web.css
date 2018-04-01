@@ -21,13 +21,7 @@ header {
   font-size: 2em !important;
 }
 #page-login .logo {
-  display: block;
-  text-align: center;
-  width: 400px;
-  height: 182px;
-  margin: 0 auto 40px auto;
-  background: url(/assets/custom_styles/images/fedders-logo-barn.svg) no-repeat;
-  background-size: 400px 182px;
+  margin-bottom: 30px;
 }
 #page-login .login-content .btn {
   font-size: 1.3em !important;
@@ -38,21 +32,13 @@ header {
   padding: 20px;
 }
 /* end page-login */
-.form-footer a {
-  background-color: #fff;
-  margin: 20px auto !important;
-  padding: 12px 0;
-  color: #cc6600 !important;
-  display: block;
-  width: 460px;
-  text-align: center;
+.for-login .form-footer,
+.for-forgot .form-footer {
+  margin: 30px auto !important;
 }
-.form-footer p a {
-  background-color: #fff;
-  padding: 12px 0;
-  width: 460px;
-  text-align: center;
-  margin: 0 auto;
+.for-login .form-footer a,
+.for-forgot .form-footer a {
+  color: #C60 !important;
 }
 .web-footer {
   display: none;
